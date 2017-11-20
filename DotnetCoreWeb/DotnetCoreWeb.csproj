@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DotnetCode.Controller.Base\DotnetCode.Controller.Base.csproj" />
+    <ProjectReference Include="..\DotnetCode.Controller.Permission\DotnetCode.Controller.Permission.csproj" />
+    <ProjectReference Include="..\DotnetCore.Code.Mvc\DotnetCore.Code.Mvc.csproj" />
+    <ProjectReference Include="..\DotnetCore.Code\DotnetCore.Code.csproj" />
+    <ProjectReference Include="..\DotnetCore.Controller.Account\DotnetCore.Controller.Account.csproj" />
+    <ProjectReference Include="..\DotnetCore.Service\DotnetCore.Service.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="config.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="hosting.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="logs.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>

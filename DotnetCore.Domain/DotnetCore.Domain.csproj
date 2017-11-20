@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.6.2" />
+    <PackageReference Include="Autofac.Configuration" Version="4.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DotnetCore.IDbFactory\DotnetCore.IDbFactory.csproj" />
+    <ProjectReference Include="..\DotnetCore.Infrastructure\DotnetCore.Infrastructure.csproj" />
+    <ProjectReference Include="..\DotnetCore.Model\DotnetCore.Model.csproj" />
+    <ProjectReference Include="..\DotnetCore.MysqlDbFactory\DotnetCore.MysqlDbFactory.csproj" />
+    <ProjectReference Include="..\DotnetCore.SqlServerDbFactory\DotnetCore.SqlServerDbFactory.csproj" />
+  </ItemGroup>
+
+</Project>
