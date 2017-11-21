@@ -29,7 +29,7 @@ namespace DotnetCore.Code.Encrypt
         /// </summary>
         /// <param name="str">string str:被加密的字符串</param>
         /// <returns>返回加密后的字符串</returns>
-        private string SHA256Encrypt(string str)
+        public static string SHA256Encrypt(string str)
         {
             SHA256 s256 = new SHA256Managed();
             byte[] byte1;
@@ -43,7 +43,7 @@ namespace DotnetCore.Code.Encrypt
         /// </summary>
         /// <param name="str">string str:被加密的字符串</param>
         /// <returns>返回加密后的字符串</returns>
-        private string SHA384Encrypt(string str)
+        public static string SHA384Encrypt(string str)
         {
             SHA384 s384 = new SHA384Managed();
             byte[] byte1;
@@ -57,7 +57,7 @@ namespace DotnetCore.Code.Encrypt
         /// </summary>
         /// <param name="str">string str:被加密的字符串</param>
         /// <returns>返回加密后的字符串</returns>
-        private string SHA512Encrypt(string str)
+        public static string SHA512Encrypt(string str)
         {
             SHA512 s512 = new SHA512Managed();
             byte[] byte1;
