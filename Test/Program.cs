@@ -13,6 +13,7 @@ namespace Test
     {
         static void Main(string[] args)
         {
+
             IConfigurationBuilder config = new ConfigurationBuilder();
             IConfigurationSource autofacJsonConfigSource = new JsonConfigurationSource()
             {
@@ -21,8 +22,6 @@ namespace Test
             config.Add(autofacJsonConfigSource);
             var c = config.Build();
             var d = c["ProviderName"];
-
-
 
             Console.ReadLine();
             Console.ReadKey();

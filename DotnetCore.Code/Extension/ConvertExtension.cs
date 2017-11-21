@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Reflection;
 
-namespace DotnetCore.Code.Code
+namespace DotnetCore.Code.Extension
 {
     /// <summary>
     /// 类型转化扩展
