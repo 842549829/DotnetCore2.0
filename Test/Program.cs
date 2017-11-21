@@ -1,5 +1,6 @@
 ﻿
 
+using DotnetCore.Code.Code;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Configuration.Json;
 using System;
@@ -12,7 +13,6 @@ namespace Test
     {
         static void Main(string[] args)
         {
-
             IConfigurationBuilder config = new ConfigurationBuilder();
             IConfigurationSource autofacJsonConfigSource = new JsonConfigurationSource()
             {
