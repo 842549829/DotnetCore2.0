@@ -33,7 +33,7 @@ namespace DotnetCore.Code.Encrypt
         {
             SHA256 s256 = new SHA256Managed();
             byte[] byte1;
-            byte1 = s256.ComputeHash(Encoding.Default.GetBytes(str));
+            byte1 = s256.ComputeHash(Encoding.UTF8.GetBytes(str));
             s256.Clear();
             return Convert.ToBase64String(byte1);
         }
@@ -47,7 +47,7 @@ namespace DotnetCore.Code.Encrypt
         {
             SHA384 s384 = new SHA384Managed();
             byte[] byte1;
-            byte1 = s384.ComputeHash(Encoding.Default.GetBytes(str));
+            byte1 = s384.ComputeHash(Encoding.UTF8.GetBytes(str));
             s384.Clear();
             return Convert.ToBase64String(byte1);
         }
@@ -61,7 +61,7 @@ namespace DotnetCore.Code.Encrypt
         {
             SHA512 s512 = new SHA512Managed();
             byte[] byte1;
-            byte1 = s512.ComputeHash(Encoding.Default.GetBytes(str));
+            byte1 = s512.ComputeHash(Encoding.UTF8.GetBytes(str));
             s512.Clear();
             return Convert.ToBase64String(byte1);
         }
