@@ -1,7 +1,7 @@
 ﻿using DotnetCore.Code.Extension;
-using DotnetCore.Code.Utility;
 using System;
 using System.Text;
+using DotnetCore.Code.Utility;
 
 namespace DotnetCore.Code.Code
 {

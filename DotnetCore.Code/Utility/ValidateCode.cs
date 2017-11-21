@@ -6,7 +6,7 @@ using System.DrawingCore.Imaging;
 using System.IO;
 using System.Text;
 
-namespace DotnetCore.Code.Code
+namespace DotnetCore.Code.Utility
 {
     /// <summary>
     /// 生成验证码的类
