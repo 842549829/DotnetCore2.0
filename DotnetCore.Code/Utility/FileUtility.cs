@@ -4,7 +4,7 @@ using System.IO;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace Notify.Code.Utility
+namespace DotnetCore.Code.Utility
 {
     public class FileUtility
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Concurrent;
 using System.Threading;
-using Notify.Code.Write;
+using DotnetCore.Code.Write;
 
 namespace DotnetCore.Code.Utility
 {
