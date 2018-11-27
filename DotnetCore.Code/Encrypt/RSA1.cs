@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace DotnetCore.Code.Encrypt
 {
-    public class RSA
+    public class RSA1
     {
         /// <summary>
         /// RSA加密
